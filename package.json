@@ -1,0 +1,26 @@
+{
+  "name": "cmig",
+  "description": "Cluster (file/process) Migration for Node",
+  "version": "1.0.0",
+  "homepage": "https://github.com/mykiimike/cmig",
+  "author": "Michael Vergoz",
+  "main" : "index.js",
+  "directories": {
+    "lib": "./lib"
+  },
+  "keywords": ["cluster", "file", "process", "migration"],
+  "repository": "git://github.com/mykiimike/cmig",
+  "engines": {
+    "node": ">= 0.10.3"
+  },
+  "dependencies": {
+  },
+  "bin": {
+    "cmig": "bin/cmig.js"
+  },
+  "licenses": [
+    {
+      "type": "GPL-3.0"
+    }
+  ]
+}
