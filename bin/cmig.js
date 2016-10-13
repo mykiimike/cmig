@@ -16,7 +16,7 @@ program
   .option('-n, --name [hostname]', 'Set node hostname, default local hostname')
   .option('-r, --routers [routers]', 'Connect to the list of CMIG Routers', list, [])
   .option('--runDir [runDir]', 'Running directory, default /tmp/cmig', '/tmp/cmig')
-  .option('--rbind [rbind]', 'List of Routers to bind, default tcp4://127.0.0.1:3245', list, ['tcp4://127.0.0.1:3245'])
+  .option('--rbind [rbind]', 'List of Routers to bind, default tcp://127.0.0.1:3245', list, ['tcp://127.0.0.1:3245'])
   .option('-v, --verbose')
   .parse(process.argv);
 
